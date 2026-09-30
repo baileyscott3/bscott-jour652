@@ -1,6 +1,6 @@
 /* styles for my resume */
 
-
+/* general style for the page */
 BODY {
     font-family: "Open Sans", arial, sans-serif;
     font-size: 1em;
@@ -8,12 +8,14 @@ BODY {
     color: #444;
 }
 
+/* page width */
 #container {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* name style */
 #name {
     font-size: 3em;
     text-transform: uppercase;
@@ -25,6 +27,7 @@ BODY {
     margin: 0 auto;
 }
 
+/* title style */
 #title {
     color: #33485e;
     text-transform: uppercase;
@@ -37,16 +40,19 @@ BODY {
     margin-right: 0px;
 }
 
+/* contact stuff style */
 .menu {
     margin: 0px;
     padding: 0px;
     text-align: center;
 }
 
+/* more contact stuff style */
 .contact {
     display: inline;
 }
 
+/* section header styles */
 .section-header {
     text-transform: uppercase;
     font-size: 1.5em;
@@ -60,15 +66,19 @@ BODY {
     min-width: 300px;
 }
 
+
+/* job title style */
 .jobtitle {
     font-size: 1.5em;
     font-weight: 600;
 }
 
+/* org style */
 .organization {
     font-size: 1.25em;
 }
 
+/* date style */
 .date {
     font-style: italic;
     margin-top: 10px;
@@ -77,6 +87,8 @@ BODY {
     margin-right: 0px;
 }
 
+
+/* job description style */
 .description {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -84,6 +96,7 @@ BODY {
     margin-right: 0px;
 }
 
+/* education list style */
 #degrees {
     margin-top: 5px;
     margin-bottom: 0px;
@@ -91,6 +104,7 @@ BODY {
     margin-right: 0px;
 }
 
+/* skills list style */
 #do {
     margin-top: 5px;
     margin-bottom: 0px;
@@ -98,6 +112,7 @@ BODY {
     margin-right: 0px;
 }
 
+/* info thing at the top style */
 .top {
     width: 60%;
     min-width: 300px;
