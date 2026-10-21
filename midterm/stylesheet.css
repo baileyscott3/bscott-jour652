@@ -1,0 +1,104 @@
+
+/*masthead*/
+#masthead {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 1200px;
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    font-family: "Righteous", sans-serif;
+    color: #000000;
+    background-color: #ACE1AF;
+}
+
+/*magazine title*/
+.mag-title {
+    padding-bottom: 10px;
+}
+
+
+.icon {
+    width: 7%;
+    padding-top: 10px;
+}
+
+/*page-wrapping div*/
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+#headline {
+    text-align: center;
+    font-family: "Righteous", sans-serif;
+    font-weight: lighter;
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+#byline {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+
+#text {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    padding-bottom: 100px;
+}
+
+
+.subheading {
+    font-family: "Righteous", sans-serif;
+    font-size: 20px;
+}
+
+/*formatting for imgs*/
+.story-img {
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+/*img description*/
+.img-desc {
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 11px;
+    margin-top: 5px;
+}
+
+/*image source formatting*/
+.img-desc-2 {
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+blockquote {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #359239;
+    font-style: italic, bold;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 4px solid #ccc;
+}
+
+#links{
+    padding-bottom: 50px;
+    font-family: Helvetica, Arial sans-serif;
+    font-size: 20px;
+}
+
+.more {
+    font-family: "Righteous", sans-serif;
+    font-size: 2em;
+
+}
