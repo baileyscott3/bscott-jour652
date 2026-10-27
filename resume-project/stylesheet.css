@@ -1,9 +1,11 @@
 body {
     background-color: black;
+    color: white;
 }
 
 .card{
     text-align: center;
+    margin: 0 auto;
 }
 
 .card-img {
@@ -17,9 +19,59 @@ body {
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
-    margin-top: 25px;
+    
 }
 
 .overlay-img {
-    padding-left: 25px;
+    margin-bottom: 0px;
+    width: 125px;
+}
+
+
+.header-line {
+    margin-top: 0;
+    height: 10px;
+    background-color: white;
+}
+
+.sub-line {
+    margin: 0 auto;
+    margin-top: 0;
+    height: 7px;
+    background-color: white;
+    width: 800px;
+}
+
+#subheading {
+    margin: 0 auto;
+    margin-top: 25px;
+    text-align: center;
+    width: 900px;
+}
+
+.title {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 3em;
+    margin-bottom: 15px;
+}
+
+.bi {
+    font-size: 2em;
+}
+
+.sub-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.category {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 15px;
 }
