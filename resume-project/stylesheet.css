@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+}
+
+.card{
+    text-align: center;
+}
+
+.card-img {
+    height: 250px;
+    object-fit: cover; 
+    object-position: top;
+}
+
+.card-title {
+    font-size: 5em;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    margin-top: 25px;
+}
+
+.overlay-img {
+    padding-left: 25px;
+}
