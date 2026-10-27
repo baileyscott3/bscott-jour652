@@ -1,3 +1,4 @@
+/* setting the background to black and the text to white */
 body {
     background-color: black;
     color: white;
@@ -8,12 +9,14 @@ body {
     margin: 0 auto;
 }
 
+/* cropping the image so that it isnt stretched */
 .card-img {
-    height: 250px;
+    height: 375px;
     object-fit: cover; 
     object-position: top;
 }
 
+/* styling for the name */
 .card-title {
     font-size: 5em;
     font-family: "Ubuntu", sans-serif;
@@ -22,33 +25,44 @@ body {
     
 }
 
+/* img style */
 .overlay-img {
     margin-bottom: 0px;
-    width: 125px;
+    width: 175px;
 }
 
-
+/* style for the top dividing line */
 .header-line {
     margin-top: 0;
-    height: 10px;
+    height: 5px;
     background-color: white;
 }
 
+/* style for the 2nd dividing line */
 .sub-line {
     margin: 0 auto;
     margin-top: 0;
     height: 7px;
     background-color: white;
     width: 800px;
+    max-width: 100%;
 }
 
+/* centering subheading and making it look good on the page */
 #subheading {
     margin: 0 auto;
     margin-top: 25px;
     text-align: center;
     width: 900px;
+    max-width: 100%;
 }
 
+/* centering all containers */
+.container {
+    margin: 0 auto;
+}
+
+/* title styling */
 .title {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
@@ -56,10 +70,16 @@ body {
     margin-bottom: 15px;
 }
 
+/* icons */
 .bi {
     font-size: 2em;
 }
 
+.social-link {
+    color: inherit;
+}
+
+/* text after title */
 .sub-text {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
@@ -68,10 +88,177 @@ body {
     margin-bottom: 15px;
 }
 
-.category {
+/* section header styling */
+.section-header {
     font-family: "Ubuntu", sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2em;
+    margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    background-color: white;
+    color: black;
+    width: 300px;
+    max-width: 100%;
+}
+
+/*center line styling*/
+.center-line {
+    margin-top: 40px;
+    width: 5px;
+    min-height: 1000px;
+}
+
+.job-info {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* job title style */
+.jobtitle {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+/* org style */
+.organization {
+    font-size: 1.25em;
+    font-weight: 200;
+}
+
+/* date style */
+.date {
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+/* job description style */
+.description {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.edu-info {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.school {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.location {
+    font-style: italic;
+    font-size: 1.25em;
+    font-weight: 100;
+}
+
+.degree {
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.graduate {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* small dividing line between education and skills */
+.section-line {
+    margin: 0 auto;
+    height: 3px;
+    background-color: white;
+    width: 200px;
+    opacity: 1;
+}
+
+/* skills list style */
+.skills-list {
+    margin: 0 auto;
+    text-align: left;
+    width: 400px;
+    max-width: 100%;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.25em;
+}
+
+/* half-size text, no center bar, had to google most of this */
+@media (max-width: 800px) {
+    body {
+        font-size: 0.5rem;
+    }
+
+    .sub-text {
+        font-size: 10px;
+    }
+
+   
+    .center-col {
+        display: none !important;
+    }
+
+    
+    .col-5 {
+        width: 50%;
+    }
+    
+}
+
+
+/* navigation menu style */
+#main-nav {
+    background-color: black;
+    border-bottom: 3px solid white;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#main-nav .navbar-brand {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#main-nav .nav-item {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* page footer style */
+.page-footer {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.footer-line {
+    height: 5px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+/* smaller heart so it doesn't use the 2em icon size */
+.page-footer .bi {
+    font-size: 1em;
 }

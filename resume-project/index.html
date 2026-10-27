@@ -31,6 +31,8 @@
 
 <body>
 
+    
+
     <div id="content">
 
         <div class="card bg-dark text-white">
@@ -38,46 +40,120 @@
             <div class="card-img-overlay">
                 <img class="overlay-img" src="images/Group 1.png" alt="Bailey's headshot">
                 <h1 class="card-title">Bailey Scott</h1>
+                <h2 class="title">Data Journalist</h2>
                 
             </div>
         </div>
 
-        <hr class="header-line">
+        <nav class="navbar navbar-expand-sm navbar-dark sticky-top" id="main-nav">
+            <div class="container-fluid">
+                <span class="navbar-brand">Bailey Scott</span>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-links" aria-controls="nav-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="nav-links">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">Experience</li>
+                        <li class="nav-item">Education</li>
+                        <li class="nav-item">Skills</li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <hr class="header-line opacity-100">
 
         <div id="subheading">
-            <h2 class="title">Data Journalist</h2>
 
             <div class="container text-center">
                 <div class="row">
                     <div class="col-sm-4">
-                        <i class="bi bi-file-earmark-person-fill"></i>
+                        <a class="social-link" href="https://www.bailey-scott.com/" aria-label="Personal website" target="_blank"><i class="bi bi-file-earmark-person-fill"></i></a>
                     </div>
                     <div class="col-sm-4">
-                        <i class="bi bi-linkedin"></i>
+                        <a class="social-link" href="https://www.linkedin.com/in/bailey-scott-bb029029a/" aria-label="LinkedIn" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <div class="col-sm-4">
-                        <i class="bi bi-github"></i>
+                        <a class="social-link" href="https://github.com/baileyscott3" aria-label="GitHub" target="_blank"><i class="bi bi-github"></i></a>
                     </div>
                 </div>
 
-                <p class="sub-text">I have experience with nearly all aspects of data journalism, from acquiring and analyzing data to writing and reporting. I have worked for multiple local papers in Boston and Maryland, and I am currently a Howard Fellow at the University of Maryland, where I am studying to get my master's degree in journalism. I have bylines on multiple data stories, including one that looked at Boston University finances, and another that mapped all bike crashes in Boston.</p>
+                <p class="sub-text">I have experience with all aspects of data journalism, from acquiring and analyzing data to writing and reporting. I have worked for multiple local papers in Boston and Maryland, and I am currently a Howard Fellow at the University of Maryland, where I am studying to get my master's degree in journalism. I have bylines on multiple data stories, including one that looked at Boston University finances, and another that mapped all bike crashes in Boston.</p>
             </div>
         </div>
 
-        <hr class="sub-line">
+        <hr class="sub-line opacity-100">
 
         <div class="container text-center">
                 <div class="row">
-                    <div class="col-lg-6">
-                        <h2 class="category">Experience</h2>
+                    <div class="col-5">
+                        <h2 class="section-header">Experience</h2>
+
+                        <div class="job-info">
+                            <div class="jobtitle">Howard Fellow</div>
+                            <div class="organization">University of Maryland</div>
+                            <div class="date">August 2026 - Present</div>
+                            <p class="description">Collaborated with news outlets across the country on a story about the rise of telehealth in America. Analyzed job posting data containing millions of rows, creating plots and tables using R.</p>
+                        </div>
+
+                        <div class="job-info">
+                            <div class="jobtitle">Freelance writer</div>
+                            <div class="organization">The Waltham Times</div>
+                            <div class="date">May 2025 - January 2026</div>
+                            <p class="description">Wrote a story exposing design defects in the town’s $350 million high school building. Also covered ICE activity in Waltham, developing several key sources within the town’s ICE watchdog network who disclosed details of multiple instances of ICE officers being disruptive to the community.</p>
+                        </div>
+
+                        <div class="job-info">
+                            <div class="jobtitle">Science writing intern</div>
+                            <div class="organization">The Brink</div>
+                            <div class="date">January 2025 - January 2026</div>
+                            <p class="description">Pitched and wrote news stories focused on interesting research within the Boston University community, interviewing many scientific experts across multiple fields. Primarily covered mental health topics, including a story about the largest college student mental health survey in the country, which is run by Boston University. Had multiple stories featured on the university’s main Instagram account, which has over 200,000 followers.</p>
+                        </div>
+
+                        <div class="job-info">
+                            <div class="jobtitle">Investigative reporter</div>
+                            <div class="organization">The Daily Free Press</div>
+                            <div class="date">September 2022 - December 2025</div>
+                            <p class="description">Pitched and wrote stories about events and issues in the city of Boston and on the campus of Boston University, including the announcement of new BU buildings and changes to Boston wastewater project funding. Did data analysis for several stories, including a story about bike lanes in Boston that went on to win an award. Compiled and analyzed BU financial and future planning data that showed that the universitys's profit margins were gradually shrinking, publishing two stories that both ran on the front page.</p>
+                        </div>
+
                     </div>
 
-                    <div class="d-flex" style="height: 200px;">
-                        <div class="vr"></div>
+                    <div class="col-2 d-flex justify-content-center center-col">
+                        <div class="vr center-line opacity-100"></div>
                     </div>
-                    
-                    <div class="col-lg-6">
-                        
+
+                    <div class="col-5">
+                        <h2 class="section-header">Education</h2>
+
+                        <div class="edu-info">
+                            <div class="school">Boston University</div>
+                            <div class="location">Boston, MA</div>
+                            <div class="degree">Bachelor of Science in Journalism</div>
+                            <div class="graduate">May 2026</div>
+                        </div>
+
+                        <div class="edu-info">
+                            <div class="school">University of Maryland</div>
+                            <div class="location">College Park, MD</div>
+                            <div class="degree">Master of Journalism</div>
+                            <div class="graduate">Expected May 2028</div>
+                        </div>
+
+                        <hr class="section-line opacity-100">
+
+                        <h2 class="section-header">Skills</h2>
+
+                        <ul class="skills-list">
+                            <li>R</li>
+                            <li>Flourish</li>
+                            <li>HTML/CSS/Bootstrap</li>
+                            <li>Adobe Suite</li>
+                            <li>Open Refine</li>
+                            <li>Photojournalism</li>
+                            <li>Marshmallow-eating</li>
+                        </ul>
+
                     </div>
                     
                 </div>
@@ -86,4 +162,13 @@
 
     </div>
 
+        
+        <footer class="page-footer">
+            <hr class="footer-line opacity-100">
+            <p>Made with lots of love by Bailey Scott</p>
+        </footer>
+
+    </div>
+
 </body>
+</html>
